@@ -3,13 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testcases.FlightDetailsTest">
+      <class name="testcases.TestcaseDemo">
         <methods>
-          <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="getIndigoFlightDetails"/>
+          <include name="tearDown"/>
+          <include name="testlogout"/>
+          <include name="testprac"/>
+          <include name="testLogin"/>
+          <include name="getTitle"/>
         </methods>
-      </class> <!-- testcases.FlightDetailsTest -->
+      </class> <!-- testcases.TestcaseDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

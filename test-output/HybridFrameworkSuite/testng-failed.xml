@@ -3,13 +3,13 @@
 <suite name="Failed suite [HybridFrameworkSuite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="SmokeTests(failed)">
     <classes>
-      <class name="testcases.LoginTest">
+      <class name="testcases.TestcaseDemo">
         <methods>
+          <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="setup"/>
-          <include name="verifyLogin"/>
+          <include name="testlogout"/>
         </methods>
-      </class> <!-- testcases.LoginTest -->
+      </class> <!-- testcases.TestcaseDemo -->
     </classes>
   </test> <!-- SmokeTests(failed) -->
 </suite> <!-- Failed suite [HybridFrameworkSuite] -->
