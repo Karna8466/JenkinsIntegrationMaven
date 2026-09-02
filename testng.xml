@@ -1,8 +1,10 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="HybridFrameworkSuite">
     <test name="SmokeTests">
+    
         <classes>
-            <class name="testcases.LoginTest" />
+            <class name="testcases.TestcaseDemo" />
+           
         </classes>
     </test>
 </suite>
