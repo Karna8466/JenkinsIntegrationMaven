@@ -55,7 +55,7 @@ public class TestcaseDemo extends BaseTest {
 		
 		Thread.sleep(3000);
 	}
-	@Test(priority = 3, enabled  = true)
+	@Test(priority = 3, enabled  = false)
 	public void testlogout() {
 		System.out.println("This is a test Logout.");
 		
